@@ -1,0 +1,66 @@
+/* Apply border-box globally */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margins for typography */
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+.card{
+  background-color: #f5f5f5;
+  width: 300px;
+  padding: 20px;
+box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+border-radius: 15px;
+}
+.card__avatar{
+  height: 100px;
+  width: 100px;
+border-radius: 100%;
+ margin-bottom: 20px;
+}
+  .card__name{
+margin:0px 0px 12px 0px;
+
+}
+
+body {
+text-align: center;
+  background-color: #d3cfcf;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+ .card__role{
+  color: #b7b7bd;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.card__bio{
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ a {
+    text-decoration: none;
+    color: inherit;
+}
+.card__button{
+  background-color: #0818f0;
+  font-weight: 900;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
