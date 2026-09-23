@@ -5,7 +5,8 @@
 }
 a {
     text-decoration: none;
-    color: rgb(15, 15, 15);
+    color: rgb(15, 15, 15); solid:
+
     font-size: 20px;
     padding: 10px 20px;
     border-radius: 5px;
@@ -19,7 +20,7 @@ a {
 
 .hero {
     height: 30vh;
-    background-color: #d4d7da; /* light gray, or any color you want */
+    background-color: #506881; /* light gray, or any color you want */
     padding: 40px 20px;
     text-align: center;
     display: flex;
@@ -32,7 +33,9 @@ a {
 }
 
 header{
-    background-color: lightgray;
+    background-color: rgb(241, 238, 238);
+    color: black;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
     align-items: center;
